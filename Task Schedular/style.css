@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .task-list {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .task-item {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #666;
+  }
+  
